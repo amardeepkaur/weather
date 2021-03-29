@@ -29,5 +29,12 @@ class DailyWeatherCell: UITableViewCell {
 //        stackView.setCustomSpacing(10, after: dayLabel)
 //        stackView.setCustomSpacing(20, after: weatherIcon)
     }
+    
+    func configure(weather: Weather) {
+        dayLabel.text = weather.day
+        minTempLabel.text = String(weather.minTemp)
+        maxTempLabel.text = String(weather.maxTemp)
+        weatherIcon.image = UIImage(systemName: weather.icon)
+    }
 
 }

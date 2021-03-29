@@ -1,38 +1,46 @@
 {
-    "weatherReport": [
+    "weatherForecast": [
         {
-          "day": "Monday",
-          "min": 2,
-          "max": 10
+            "day": "Monday",
+            "min": 2,
+            "max": 10,
+            "icon": "cloud.sun.fill"
         },
         {
-          "day": "Tuesday",
-          "min": 4,
-          "max": 11
+            "day": "Tuesday",
+            "min": 4,
+            "max": 11,
+            "icon": "cloud.sun.rain.fill"
         },
         {
-          "day": "Wednesday",
-          "min": -1,
-          "max": 7
+            "day": "Wednesday",
+            "min": -1,
+            "max": 7,
+            "icon": "cloud.sun.fill"
         },
         {
-          "day": "Thursday",
-          "min": 2,
-          "max": 8
+            "day": "Thursday",
+            "min": 2,
+            "max": 8,
+            "icon": "cloud.snow.fill"
         },
         {
-          "day": "Friday",
-          "min": 9,
-          "max": 17
+            "day": "Friday",
+            "min": 9,
+            "max": 17,
+            "icon": "snow"
         },
         {
-          "day": "Saturday",
-          "min": 6,
-          "max": 11
+            "day": "Saturday",
+            "min": 6,
+            "max": 11,
+            "icon": "snow"
         },
         {
-          "day": "Sunday",
-          "min": 8,
-          "max": 14
+            "day": "Sunday",
+            "min": 8,
+            "max": 14,
+            "icon": "snow"
         }
-      ]}
+    ]
+}

@@ -17,18 +17,15 @@ class ListViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         let cityName = "New york"
-        
         if let cityList = readJsonFromFile() {
 //            let jsonContent
             print(cityList)
         }
-    
-        
     }
 
     func readJsonFromFile()  -> City?  {
         var cityList: City?
-        if let path = Bundle.main.path(forResource: "city.list", ofType: "json"){
+        if let path = Bundle.main.path(forResource: "Weather", ofType: "json"){
             do {
                 let fileUrl = URL(fileURLWithPath: path)
                 //Getting data from the json file using the fileURL
